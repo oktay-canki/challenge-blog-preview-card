@@ -1,0 +1,10 @@
+:root {
+   --primary: hsl(47, 88%, 63%);
+}
+
+body {
+   background-color: var(--primary);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
