@@ -34,6 +34,10 @@ body {
    box-shadow: 8px 8px black;
 }
 
+.blog-preview-card:hover {
+   box-shadow: 16px 16px black;
+}
+
 .blog-preview-card .illustration {
    width: 100%;
    position: center;
@@ -62,6 +66,10 @@ body {
    font-weight: 900;
    margin-top: 15px;
    margin-bottom: 5px;
+}
+.blog-preview-card .title:hover {
+   cursor: pointer;
+   color: var(--primary);
 }
 
 .blog-preview-card .description {
